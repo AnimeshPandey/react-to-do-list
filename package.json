@@ -2,6 +2,7 @@
   "name": "react-to-do-list-class",
   "version": "1.0.0",
   "private": true,
+  "homepage" : "https://www.anmshpndy.com/react-to-do-list/",
   "dependencies": {
     "material-ui": "^0.19.4",
     "prop-types": "^15.5.8",
