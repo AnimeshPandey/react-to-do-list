@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import sortBy from "sort-by";
-import { CSSTransitionGroup } from "react-transition-group";
+import { TransitionGroup } from "react-transition-group";
 import SwipeableViews from "react-swipeable-views";
 
 //import { makeStyles, withStyles } from "material-ui/core/styles";
@@ -296,7 +296,7 @@ class App extends Component {
 							</Tabs>
 						</div>
 						<div className='app-separator'>-</div>
-						<CSSTransitionGroup
+						<TransitionGroup
 							transitionName='remove-mode-animation'
 							transitionEnterTimeout={300}
 							transitionLeaveTimeout={300}>
@@ -327,7 +327,7 @@ class App extends Component {
 									))}
 								</SwipeableViews>
 							</div>
-						</CSSTransitionGroup>
+						</TransitionGroup>
 					</div>
 					<div className='enable-remove-mode'>
 						<If test={!this.state.removeMode}>

@@ -2,15 +2,15 @@
   "name": "react-to-do-list-class",
   "version": "1.0.0",
   "private": true,
-  "homepage" : "https://www.anmshpndy.com/react-to-do-list/",
+  "homepage": "https://www.anmshpndy.com/react-to-do-list/",
   "dependencies": {
-    "material-ui": "^0.19.4",
-    "prop-types": "^15.5.8",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-scripts": "1.0.14",
-    "react-swipeable-views": "^0.12.10",
-    "react-transition-group": "^1.2.1",
+    "material-ui": "^0.20.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.3",
+    "react-swipeable-views": "^0.13.9",
+    "react-transition-group": "^4.4.1",
     "sort-by": "^1.2.0"
   },
   "scripts": {
@@ -18,5 +18,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
